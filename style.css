@@ -1,0 +1,377 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(34, 34, 34);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/******************************************** navbar **********************************************/
+
+
+.net-main-container{
+    height: 700px;
+    width: 100%;
+    background-image: url(https://analyticsindiamag.com/wp-content/uploads/2019/05/apps.55787.9007199266246365.687a10a8-4c4a-4a47-8ec5-a95f70d8852d.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 120px 100px 250px #000000 ,inset -120px 100px -250px #000000;
+
+}
+
+
+
+.navigation{
+    height: 100px;
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 700px;
+}
+
+
+
+
+.navigation>img{
+   height: 250px;
+   z-index: 10;
+}
+
+
+.lang-opt>select{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+.lang-sign{
+    display: flex;
+    gap: 20px;
+}
+
+.lang-opt{
+    height: 40px;
+    width: 120px;
+    border: 3px solid rgb(255, 254, 254);
+    outline: white;
+}
+
+
+.lang-opt{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lang-opt>select{
+    height: 40px;
+    width: 120px;
+    background: none;
+
+}
+
+.sigin-btn>button{
+    height: 35px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    outline: none;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 10px;
+    
+}
+
+
+/*************************************************** banner **********************************************/
+
+
+.banner-txt{
+    text-align: center;
+    margin-top: 180px;
+}
+
+.banner-txt>h1{
+    color: white;
+    font: 4em sans-serif;
+    font-weight: bolder;
+}
+
+.banner-txt>h3{
+    color: white;
+    font: 1.5em sans-serif;
+}
+.banner-txt>h2{
+    color: white;
+    margin-top: 20px;
+    font-size: 1.6rem;
+}
+
+.banner-txt>input{
+    margin-top: 30px;
+    height: 50px;
+    width: 340px;
+    background-color: black;
+    color: white;
+    outline: 2px solid red;
+    border: 2px solid red;
+    opacity: 0.7;
+}
+
+input::placeholder{
+    color: white;
+   
+   
+}
+
+.banner-txt>span>button{
+   height: 50px;
+   width: 200px;
+   background-color: red;
+   color: white;
+   border: none;
+   outline: none;
+   font-family: Arial, Helvetica, sans-serif;
+   font: 1.2em sans-serif;
+   position: relative;
+}
+
+.bx-chevron-right{
+    position: absolute;
+    top: 15px;
+}
+
+span>button:hover{
+    background-color: rgb(192, 7, 7);
+}
+
+.container-2{
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.cont-2-txt>h1{
+    color: white;
+    font: 3em sans-serif;
+    font-weight: bolder;
+}
+
+.cont-2-txt>h2{
+    color: white;
+    font: 1.5rem sans-serif;
+}
+
+.cont-2-txt>h3{
+    color: white;
+    font: 1.4em sans-serif;
+    
+}
+
+.img{
+    position: relative;
+}
+
+.img>img{
+    position: relative;
+    z-index: 10;
+}
+
+
+.img>video{
+    position: absolute;
+    height: 313px;
+    right: 20px;
+    top: 100px;
+}
+
+
+/**************************************************** container-3 **************************************************/
+
+.container-3{
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #000000;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center ;
+    
+}
+
+
+.img-2>img{
+    position: relative;
+}
+
+
+.stranger-things{
+    height: 90px;
+    width: 280px;
+    position: absolute;
+    left: 282px;
+    top:380px ;
+    background-color: #000000;
+    border-radius: 10px;
+    
+}
+
+.stranger-things>img{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.stranger-things>span{
+    color: white;
+    position:absolute;
+    top: 20px;
+    left: 80px;
+}
+
+.stranger-things>h4{
+    color: blue;
+    position: absolute;
+    left: 80px;
+    top: 45px;
+    font: 1em sans-serif;
+}
+
+.bx-down-arrow-alt{
+    color: white;
+    position: absolute;
+    left: 160px;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.cont-3-txt{
+    color: white;
+
+}
+
+.cont-3-txt>h1{
+    font-size: 3rem
+}
+
+.cont-3-txt>h2{
+    font-size: 1.6rem;
+    margin-top: 10px;
+    
+}
+
+/* ************************************ container-3 ******************************************* */
+
+
+.container-4{
+    height: 600px;
+    width: 100%;
+    margin-top: 20px;
+    background-color: #000000;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+
+}
+
+.cont-4-txt>h1{
+    color: white;
+    font-size: 3em;
+}
+
+.cont-4-txt>h3{
+    color: white;
+    font-size: 2em;
+}
+
+
+.img-3{
+    position: relative;
+}
+
+
+.img-3>video{
+  height: 300px;
+  width: 420px;
+  position: absolute;
+  right: 130px;
+  top: 5px;
+
+}
+
+.img-3>img{
+    position: relative;
+    z-index: 12;
+}
+
+
+.container-5{
+    height: 600px;
+    width: 100%;
+    background-color: #000000;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+
+.cont-5-txt>h1{
+    color: white;
+    line-height: 30px;
+    font: 4em sans-serif;
+}
+
+.cont-5-txt>h3{
+    color: white;
+    font:1.5em sans-serif;
+    line-height: 40px;
+}
+
+.container-6{
+    height: 900px;
+    width: 100%;
+    border: 1px solid #f3f0f0;
+    margin-top: 20px;
+    background-color: #000000;
+}
+
+.container-6>h1{
+    margin-top: 50px;
+  text-align: center;
+  color: white;
+}
+
+.accordion{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+.accordion-item{
+    margin-top: 20px;
+}
+
+
+
+
