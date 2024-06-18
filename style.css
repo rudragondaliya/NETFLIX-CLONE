@@ -130,7 +130,7 @@ body{
 }
 
 input::placeholder{
-    color: white;
+    color: rgb(239, 15, 15);
    
    
 }
@@ -371,9 +371,7 @@ span>button:hover{
 
 }
 
-.accordion-4{
-    background-color: black;
-}
+
 
 
 .container-6>h4{
@@ -400,8 +398,8 @@ span>button:hover{
     border: none;
 }
 
+
 input::placeholder{
-    color: black;
     padding-left: 10px;
 }
 
